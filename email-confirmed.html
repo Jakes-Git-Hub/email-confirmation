@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Confirmed</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #F5E8C7;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(94, 60, 27, 0.15);
+            padding: 48px 40px;
+            max-width: 440px;
+            width: 100%;
+            text-align: center;
+            border: 1px solid rgba(94, 60, 27, 0.1);
+        }
+        
+        .checkmark {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: #40C4FF;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+        }
+        
+        .checkmark svg {
+            width: 32px;
+            height: 32px;
+            stroke: white;
+            stroke-width: 3;
+            fill: none;
+        }
+        
+        h1 {
+            font-size: 24px;
+            color: #5E3C1B;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        
+        p {
+            font-size: 16px;
+            color: #333333;
+            line-height: 1.5;
+            margin-bottom: 32px;
+            opacity: 0.8;
+        }
+        
+        .button {
+            display: inline-block;
+            background: #5E3C1B;
+            color: #F5E8C7;
+            padding: 12px 32px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .button:hover {
+            background: #4a2f15;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(94, 60, 27, 0.2);
+        }
+        
+        .footer {
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 1px solid #F5E8C7;
+            color: #333333;
+            font-size: 14px;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="checkmark">
+            <svg viewBox="0 0 24 24">
+                <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+        </div>
+        
+        <h1>Email Confirmed</h1>
+        <p>Your email address has been successfully verified. You can now access all features of your account.</p>
+        
+        <a href="/" class="button">Continue to App</a>
+        
+        <div class="footer">
+            You can safely close this window
+        </div>
+    </div>
+</body>
+</html>
